@@ -20,4 +20,13 @@ console.log( resultado );
 
 /** El simbolo igual no equivale a una igualdad, equivale a una asignacion */
 
+/** var permite de definir la variable */
+var nombre = 'Tania';
+var nombre = 'Catalina';
+
+/** let/const NOOOOOOOOO permite de definir la variable */
+let apellido = 'Jimenez';
+let apellido = 'Gutierrez' 
+
+
 

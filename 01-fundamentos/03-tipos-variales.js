@@ -18,6 +18,51 @@
  *   - Cadenas (Strings), 
  *   - Falso/Verdadero (Booleans),
  *   - Numeros (Numbers)
- *   - Objects
- *   - Arrays o Lists (Uno no se parece al otro)
+ *   - Objects 'object'
+ *   - Arrays o Lists (Uno no se parece al otro) 'Object'
+ * 
+ *   - null             (nulo)
+ *   - undefined        (Indefinido)
+ *   - NaN              (Not is a Number)
  */
+
+let value = 'Juanito';
+console.log( value, typeof value );
+
+value = 79878292;
+console.log( value, typeof value );
+
+value = '79878292';
+console.log( value, typeof value );
+
+value = true;
+console.log( value, typeof value );
+
+value = 0.9;
+console.log( value, typeof value );
+
+value = null;
+console.log( value, typeof value );
+
+/** Una lista */
+value = [ 'Juan', 79878292, true, 0.9 ];
+console.log( value, typeof value );
+
+value = [
+    [ 0, 'X', 0 ],
+    [ 0, 'X', 0 ],
+    [ 0, 'X', 0 ]
+];
+console.log( value, typeof value );
+
+/** Objeto Literal o Explicito */
+value = {
+    model: 1990,
+    color: 'red',
+    brand: 'Volkswagen',
+    info: function () { 
+        console.log( 'Este es un lindo ' + this.brand + ' de color ' + this.color + ' del anio ' + this.model );
+    }
+}
+console.log( value, typeof value );
+value.info();
