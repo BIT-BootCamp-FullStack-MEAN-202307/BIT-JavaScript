@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    <h2 class="hello">Hello!</h2>
+    <form>
+        <input 
+            type="text" 
+            name="first_name"
+            placeholder="Ej: Juan" 
+        >
+        <input 
+            type="number"
+        >
+        <input type="password">
+        <input type="reset" value="Enviar">
+        <input type="date">
+        <input type="color">
+        <input type="file">
+
+        <textarea 
+            name="description" 
+            cols="20" 
+            rows="4"
+        ></textarea>
+        <br />
+        <input type="radio" name="gender">Femenino
+        <input type="radio" name="gender">Masculino
+        <input type="radio" name="gender">Otro
+
+        <ul>
+            <li><input type="checkbox">hola</li>
+            <li>como</li>
+            <li>estas</li>
+        </ul>
+
+        <br />
+        Hobbies que te gustan
+        <input type="checkbox">Cantar en el banio
+        <input type="checkbox">Nvegar en internet
+        
+        <br />
+        <select name="hobbies">
+            <option value="#">Seleccione...</option>
+            <option value="cantar">Cantar</option>
+            <option value="cantar">Comer</option>
+        </select>
+
+        <br />
+        <select name="hobbies" multiple>
+            <option value="#">Seleccione...</option>
+            <option value="cantar">Cantar</option>
+            <option value="cantar">Comer</option>
+            <option value="cantar">Cocinar</option>
+            <option value="cantar">Camellar</option>
+        </select>
+        <hr />
+
+        <button type="submit">Send</button>
+    </form>
+
+    <script src="./01-obtener-elementos.js"></script>
+</body>
+</html>
