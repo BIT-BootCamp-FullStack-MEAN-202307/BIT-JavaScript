@@ -8,13 +8,16 @@ $btnEl.addEventListener( 'click', function ( event ) {
 
     console.log( $inputEl.value );
 
+    // localStorage.setItem( 'products',  $inputEl.value );
+
     const $fieldEl = document.getElementById( 'field' );
     const $pEl = document.createElement( 'p' );
+    //$pEl.textContent = $inputEl.value;      // Asignando el valor que tengo en el input al parrafo
+    $pEl.textContent = localStorage.getItem( 'products' )
+    $fieldEl.append( $pEl );  
     
-    $pEl.textContent = $inputEl.value;      // Asignando el valor que tengo en el input al parrafo
-    
-    
-    $fieldEl.append( $pEl );                // Agrego como hijo al elemento
+    localStorage.removeItem( 'name' )
+    // Agrego como hijo al elemento
 });
 
 console.log( $btnEl );
