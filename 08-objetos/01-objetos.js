@@ -38,6 +38,7 @@ function sumar() {}     // Function (Sola en el mundo, no pertenece a nada, ni a
 //     console.log( object[ 0 ], object[ 1 ] );
 // }
 
+// Object.entries( persona ) --> [ [ name: 'Diego' ], [ profesion: 'Empresario del turismo' ], [ edad: 23 ] ]
 for( let [ key, value ] of Object.entries( persona ) ) {      // Object.entries( persona ) --> [ [ name: 'Diego' ], [ profesion: 'Empresario del turismo' ], [ edad: 23 ] ]
     console.log( ' >>> ', key, value );
 }
