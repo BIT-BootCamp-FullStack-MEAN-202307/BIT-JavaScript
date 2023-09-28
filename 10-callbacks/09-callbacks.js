@@ -10,6 +10,8 @@ frutas.push( 'Mora' );
 // [lista].forEach( <Callback> );
 
 let suma = 0;
+
+// Ejemplo de Callback de uso en la cotidianidad en JavaScript
 frutas.forEach( ( fruta, index ) => {      // 1er: Valor dentro del indice, 2do, indice de la lista
     console.log( index + 1, fruta );
 
