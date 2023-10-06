@@ -1,0 +1,22 @@
+body {
+
+}
+
+img.product-image {
+    height: 13rem;
+    width: 13rem;
+    object-fit: contain;
+}
+
+.data {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.card {
+    border: 1px solid blue;
+    width: 30%;
+}
